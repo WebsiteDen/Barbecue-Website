@@ -1,0 +1,1405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+}
+.section-p1{
+   padding: 40px 80px;
+}
+
+.section-m1{
+   margin: 60px 0px;
+ }
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#fff;
+    background-color: #DA9323;
+    border-radius: 25px;
+    border: 1px solid #DA9323;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+ body{
+     width: 100%;
+ }
+
+ /* Header Styles*/
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.nav-menu img{
+    width: 50px;
+    padding: 10px;
+    display: none;
+}
+#header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+}
+#header li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    padding: 25px;
+}
+.nav-menu a{
+    padding-left: 25px;
+}
+.nav-menu a:hover,
+.nav-menu a.actives{
+    color:  #DA9323;
+}
+.MenuIcons{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    display: none;
+}
+#banner{
+    background-image: url("Images/Backgroundimg/newbbq1.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+}
+
+#banner h4{
+    color:  #DA9323;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#banner h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 15px;
+}
+#banner p{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#bannerbutton .normal{
+    margin-left: 10px;
+    background: none;
+}
+#bannerbutton .normal:hover{
+    background: #DA9323;
+}
+
+#hero{
+    display: flex;
+    justify-content: around;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+#hero1{
+    height: 80%;
+    
+}
+#hero1 img{
+    margin-bottom: 20px;
+}
+#hero1 img.img{
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+#hero1 h2{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#hero1 h5{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#hero1 p{
+    margin-bottom: 20px;
+  text-align: center;
+}
+#hero1 button{
+    margin-top: 25px;
+    text-align: right;
+}
+#hero2{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+#hero2 img{
+   margin: 15px;
+}
+#featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+#featured h2{
+   font-size: 30px;
+   margin-left: 50px;
+}
+#featured img{
+    width: 130px;
+    filter: grayscale(100%);
+ }
+ #featured img:hover{
+    filter: grayscale(0%);
+ }
+ #delicacies{
+    background-image: url("Images/Backgroundimg/newbbq.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    overflow: hidden;
+}
+#delicacies h2{
+    color: #DA9323;
+    font-size: 50px;
+}
+#delicacies p{
+    color: #fff;
+}
+#delicacies img{
+    padding-bottom: 15px;
+}
+#eatery{ 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #F2F2F2;
+}
+#spices{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#spices #spices1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+#spices #spices1 .inner h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#spices #spices1 .inner span{
+    font-size: 25px;
+}
+#spices #spices1 img{
+    width: 50%;
+}
+#banner2{
+    background-image: url("Images/Backgroundimg/bbqfood.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+#banner2 img{
+    width: 80px;
+    filter: invert(1);
+    padding-bottom: 10px;
+}
+#banner2 h4{
+    color: #fff;
+    padding-bottom: 40px;
+}
+#banner2 h2{
+    color:#DA9323;
+    padding-bottom: 30px;
+}
+#banner2 p{
+    color: #fff;
+    padding-bottom: 15px;
+}
+#food{
+    background: #F2F2F2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#food1 h2{
+    font-size: 40px;
+    text-align: center;
+}
+#food1 img{
+    display: block;
+    padding-top: 20px;
+    margin: auto; 
+}
+#food1 p{
+    font-size: 16px;
+    text-align: center;
+    white-space: pre-wrap;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+#customers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#customers h4{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#customers #clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#customers #clients img{
+    width: 25%;
+    padding-left: 12px;
+}
+#customers #clients img.img1{
+    width: 42%;
+    padding-left: 12px;
+}
+#customers #clients img.img2{
+    width: 34%;
+    padding-left: 12px;
+}
+/*----About Us Pages--------*/
+#aboutbanner{
+    background-image: url("Images/Backgroundimg/bbqfood.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+#aboutbanner h4{
+    color:  #DA9323;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#aboutbanner h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 15px;
+}
+#aboutbanner p{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#aboutbanner img{
+    padding-top: 40px;
+}
+.resto{
+    background: #F2F2F2;
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+.resto1{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.resto1 h1{
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+.resto1 p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.slider{
+    width: 550px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.carousel-item img{
+    width: 100%;
+}
+
+
+.resto2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.resto2 .cols{
+     width: 100%;
+     height: 350px;
+}
+.resto2 .cols h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.resto2 .cols p{
+    line-height: 1.3rem;
+    font-weight: lighter;
+    position: relative;
+}
+.divider1{
+    background: #DA9323;
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+  
+}
+.resto2 .cols p.best1{
+    margin-top: 50px;
+}
+.resto2 .colz{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.colz img{
+    margin-left: 80px;
+    width: 400px;
+    flex-basis: 50%;
+    height: 350px;
+}
+.colz .wifi{
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    color: #fff;
+}
+.colz .wifi h3{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.colz .wifi p{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+#aboutbanner1{
+    background-image: url("Images/Backgroundimg/bbqs.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+#aboutbanner1 h4{
+    color:  #DA9323;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#aboutbanner1 h2{
+    color: #fff;
+    font-size: 80px;
+    padding: 15px;
+}
+#aboutbanner1 p{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#aboutbanner1 img{
+    padding-top: 40px;
+    filter: invert(1);
+}
+.staffs1 {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.staffs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ourchefs{
+    width: 47%;
+}
+.ourchefs h2{
+    font-size: 45px;
+} 
+.ourchefs p{
+   font-size: 16px;
+}
+
+ .divider{
+    background-color: #DA9323;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    margin-top:  50px;
+}
+#ourchefs1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 47%;
+}
+.chef,
+.chef1{
+    padding-top: 15px;
+}
+.chef h3,
+.chef1 h3{
+    text-align: left;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.chef p,
+.chef1 p{
+    text-align: center;
+    font-size: 16px
+}
+.chef img{
+    width: 120px;
+}
+
+.chef .icons i,
+.chef1 .icons i{
+    padding: 5px;
+    margin: auto;
+    background: #DA9323;
+    border-radius: 15px;
+    color:#F2F2F2;
+}
+
+.chef1 img{
+    width: 120px;
+}
+.ourchefs2 h2{
+   font-size: 30px;
+}
+.ourchefs2 h3{
+    font-size: 20px;
+ }
+ .ourchefs2 p{
+    font-size: 16px;
+    line-height: 1.4rem;
+ }
+#ourchefs3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.chef3{
+    width: 100%;
+    margin-right: 150px;
+}
+.chef3 img{
+    width: 120px;
+}
+
+
+.chef4 img{
+    width: 120px;
+}
+.chef4{
+    width: 100%;
+    margin-right: 160px;
+}
+
+
+/*-------Menu Pages------------*/
+#menubanner{
+    background-image: url("Images/Backgroundimg/f2.jpeg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    opacity: 0.9;
+}
+#menubanner h4{
+    color:  #DA9323;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#menubanner h1{
+    color: #fff;
+    font-size: 80px;
+    padding: 15px;
+}
+#menubanner p{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#menubanner img{
+    padding-top: 40px;
+    width: 200px;
+}
+#Bbq{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding-top: 120px;
+    background: #F2F2F2;
+    padding-bottom: 20px;
+}
+#Bbq h3{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#Bbq h5{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+#Bbq p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.4rem;
+}
+#Bbq img{
+    padding-top: 14px;
+    padding-bottom: 50px;    
+}
+.menu-foods{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.menu1{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.menu1 img{
+    width: 300px;
+    height: 450px;
+    display: block;
+}
+.menu1 h4{
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 12%;
+}
+.menu1 .indicator{
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    border: none;
+    margin-top: 8px;
+    background: #DA9323;
+    position: absolute;
+    top: 64%;
+    left: 12%;
+}
+.menu1 h5{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    padding-top: 55px;
+}
+.table1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+
+th{
+    padding: 5px;
+    font-size: 35px;
+    color: #000;
+    font-weight: normal;
+}
+td{
+    padding: 10px 10px;
+}
+td h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+td small{
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+td span{
+    font-size: 1.7em;
+    line-height: 0.9em;
+}
+/*---------Contact Page--------*/
+#contactbanner{
+    background-image: url("Images/Backgroundimg/f5.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 80px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    opacity: 0.9;
+}
+#contactbanner h4{
+    color:  #DA9323;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#contactbanner h1{
+    color: #fff;
+    font-size: 80px;
+    padding: 15px;
+}
+#contactbanner p{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#contactbanner img{
+    padding-top: 40px;
+    width: 200px;
+}
+#container{
+     background: #F2F2F2;
+     padding-top: 120px;
+     padding-bottom: 80px;
+}
+.dinewithus,
+.feedback{
+    display: block;
+    text-align: center;
+}
+.dinewithus h2{
+    padding-bottom: 20px;
+}
+.dinewithus h4{
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+.dinewithus p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+.moreinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.restuarant h3{
+    font-size: 30px;
+    padding-right: 30px;
+}
+.restuarant p{
+    font-size: 20px;
+    padding-right: 30px;
+    text-align: right;
+}
+.moreinfo .restuarant::after{
+    content: "";
+    background: #DA9323;
+    width: 2px;
+    height: 100px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 49.85%;
+    transform: translateX(50%);
+}
+.dinning h3{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.dinning p{
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+#container img{
+    display: block;
+    margin: auto;
+    padding-top: 55px;
+}
+.feedback h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.feedback p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+.findus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.message{
+    width: 47%;
+}
+.message1{
+    width: 100%;
+    height: 100%;
+}
+.message1 input{
+    width: 100%;
+    padding: 12px 12px;
+    margin-bottom: 25px;
+    outline: #F2F2F2;
+}
+.message1 textarea{
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px;
+    outline: #F2F2F2;
+}
+.map{
+    width: 47%;
+}
+.send{
+    margin-top: 30px;
+}
+.hours{
+    display: block;
+    text-align: center;
+}
+.openhours h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.openhours h5{
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.openhours h5 span{
+    margin-left: 30px;
+}
+.happyhours h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.happyhours h5{
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+/*-----media query for less than 997px------------*/
+@media (max-width: 997px) {
+    #banner h1 {
+       font-size: 70px;
+    }
+    #hero {
+       flex-direction: column;
+       margin-bottom: auto;
+    }
+    #hero2 {
+        display: flex;
+        justify-content: space-evenly;
+        height: 50%;
+    }
+
+}
+@media screen and (max-width: 948px) {
+    #bannerbutton button:nth-child(1){
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 807px) {
+    .nav-menu button.normal {
+       display: none;
+    }
+    #hero2 {
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    #banner h4 {
+        color: #DA9323;
+        padding: 15px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    #hero2 img {
+         width: 90%;
+         height: 500px;
+         margin:auto;
+         margin-top: 10px;
+    }
+    #featured {
+        flex-direction: column;
+        width: 100%;
+    }
+    #featured h2 {
+        text-align: start;
+        margin: auto;
+    }
+    
+    #spices #spices1 {
+       flex-direction: column;
+       width: 100%;
+    }
+    #spices #spices1 img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:405px ) {
+    #spices #spices1 {
+        flex-direction: column;
+        width: 130px;
+     }
+     #spices #spices1 img {
+         width: 100%;
+     }
+}
+/*-----media query for less than 546px------------*/
+@media (max-width: 576px) {
+  
+      .navbar-brand img{
+          width: 75px;
+          margin-top: 5px;
+          margin-right: 120px;
+      }
+   
+    #banner h4, #menubanner h4, #contactbanner h4 {
+        font-size: 20px;
+        
+    }
+    #banner h1{
+        font-size: 25px;
+
+    }
+   
+   #contactbanner h1, #menubanner h1 {
+        font-size: 28px;
+    }
+    #banner p {
+        font-size: 10px;
+    }
+    #customers {
+        flex-direction: column;
+    }
+    #customers #clients img.img1 {
+        width: 28%;
+        padding-left: 12px;
+    }
+    #footer img {
+        width: 30%;
+    }
+    #spices #spices1 .inner h3 {
+        font-size: 18px;
+    
+    }
+    p {
+        font-size: 12px;   
+    }
+    #footer h5 {
+     font-size: 10px;
+     font-weight: 500;
+    }
+    #hero1 button.normal {
+        margin-left: 50px;
+    }
+}
+/*-----media query for about us page------------*/
+@media (max-width: 1280px) {
+    #aboutbanner1 {
+        height: 100vh;
+    }
+    .resto2 .col-2 h1 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .resto2 .col-2 p {
+        line-height: 1.3rem;
+        font-weight: lighter;
+        position: relative;
+        margin-top: -8px;
+    }
+        .divider1{
+            display: none;
+        }
+}
+@media screen and (max-width: 1070px) {
+    .resto2 {
+        flex-direction: column;
+     }
+     .resto2 .cols {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+     .resto2 .cols p.best1 {
+        width: 100%;
+    }
+    .colz img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 947px){
+    #aboutbanner, #aboutbanner1 {
+        height: 100vh;
+    }
+    #aboutbanner img {
+        width: 120px;
+    }
+    #aboutbanner h4 {
+       font-size: 20px;
+    }
+    #aboutbanner h1 {
+        font-size: 60px;
+    }
+    #aboutbanner p {
+        font-size: 14px;
+    }
+    .resto1 h1 {
+        font-size: 34px;
+    }
+    .resto1 p {
+        font-size: 14px;
+        line-height: 1.2rem;
+    }
+    .resto1 img{
+        width: 120px;
+    }
+    .section-p1 {
+        padding: 40px 60px;
+    }
+    .slider {
+        height: 250px;
+        width: 450px;
+    }
+   
+    .resto2 .col-2 h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .resto2 .col-2 p {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    button.normal {
+        display: block;
+    margin: auto;
+    
+    }
+    .col-3 img {
+        display: block;
+        margin: auto;
+    }
+    #aboutbanner1 img {
+        width: 60px;
+    }
+    #aboutbanner1 h4 {
+        font-size: 25px;
+    }
+    #aboutbanner1 h2 {
+        font-size: 40px;
+    }
+    #aboutbanner1 p {
+    font-size: 13px;
+    }
+    .staffs {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ourchefs {
+        width: 100%;
+        margin: auto;
+
+    }
+    .ourchefs h2 {
+        font-size: 35px;
+    }
+    #ourchefs1 {
+        width: 70%;
+    }
+   
+    .chef h3, .chef1 h3 {
+        font-size: 18px;
+    }
+    .chef p, .chef1 p {
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 587px){
+    .section-p1 {
+        padding: 10px 15px;
+    }
+  
+    #aboutbanner h1 {
+        font-size: 40px;
+    }
+    #aboutbanner p {
+        font-size: 11px;
+    }
+    #aboutbanner1 h4 {
+        font-size: 20px;
+    }
+    #aboutbanner1 h2 {
+        font-size: 30px;
+    }
+    #aboutbanner1 p {
+        font-size: 11px;
+    }
+    .resto1 h1 {
+        font-size: 28px;
+    }
+    .resto1 p {
+        font-size: 11px;
+        line-height: 1.0rem;
+    }
+    .slider {
+        height: 180px;
+        width: 280px;
+    }
+    .resto2 .col-2 h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .resto2 .col-2 p {
+        text-align: center;
+        font-size: 11px;
+    }
+    .col-3 img {
+        width: 280px;
+        height: 180px;
+    }
+    .col-3 .wifi h3 {
+        font-size: 16px;
+    }
+    .col-3 .wifi p {
+       font-size: 11px;
+    }
+    .ourchefs h2 {
+        font-size: 23px;
+    }
+    .ourchefs p {
+        font-size: 13px;
+    }
+    .chef h3, .chef1 h3 {
+        font-size: 15px;
+    }
+
+    .icons{
+        width: 100%;
+    }
+    .icons a{
+        width: 40px;
+    }
+}
+@media screen and (max-width: 465px) {
+    .colz .wifi {
+        position: absolute;
+        top: 45%;
+        left: 22%;
+        color: #fff;
+        text-align: left;
+    }
+    .colz .wifi h3 {
+        text-align: left;
+        font-size: 16px;
+    }
+    .colz .wifi h3 {
+        text-align: center;
+        font-size: 12px;
+    }
+    #ourchefs1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .chef img, .chef1 img {
+       display: block;
+       margin: auto;
+    }
+    .chef h3, .chef1 h3 {
+        text-align: center;
+    }
+    .icons {
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    #aboutbanner h4 {
+        font-size: 15px;
+    }
+    #aboutbanner h1 {
+        font-size: 30px;
+    }
+    .resto1 h1 {
+        font-size: 25px;
+    }
+    .resto1 p {
+        font-size: 10px;
+        line-height: 0.93rem;
+    }
+    .resto1 img {
+        width: 100px;
+    }
+    .resto2 .col-2 h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .resto2 .col-2 p.best1 {
+        margin-top: 30px;
+        line-height: 0.93rem;
+    }
+    #aboutbanner1 h4 {
+        font-size: 14px;
+        margin-bottom: -30px;
+    }
+    #aboutbanner1 h2 {
+        font-size: 20px;
+    }
+    #aboutbanner1 p {
+        margin-top: -10px;
+    }
+    #aboutbanner button.normal {
+        margin-top: 40px;
+    }
+}
+/*-----media query for menu page------------*/
+@media screen and (max-width: 1500px) {
+    .table {
+        --bs-table-bg: #f2f2f2;
+    }
+}
+@media screen and (max-width: 1192px) {
+    .table1 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 850px) {
+    .menu-foods {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 947px) {
+
+    #menubanner p {
+      font-size: 14px;
+    }
+}
+@media screen and (max-width: 1287px) {
+    .findus {
+        flex-direction: column;
+    }
+    .message, .map {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-image: url("Images/Backgroundimg/f6.png");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+}
+#footer h4{
+    color: #fff;
+    font-size: 36px;
+    padding: 30px 0;
+}
+#footer h5{
+    color: #fff;
+    font-size: 26px;
+    padding: 30px 0;
+    font-weight: bold;
+}
+#footer img{
+    padding: 20px 0;
+}
+#footer p{
+    padding-bottom: 10px 0;
+    color: #fff;
+}
+#footer button{
+    margin: 30px 0;
+}
+#footer .icon i{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #000;
+}
+#footer .icon i:hover{
+   background: none;
+}
+#footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+#footer .copyright p.copy1{
+      flex: 1;
+      text-align: left;
+    
+}
+#footer .copyright p.copy2{
+    flex: 1;
+    text-align: right;
+}
